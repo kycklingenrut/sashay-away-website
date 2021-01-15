@@ -1,0 +1,86 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5b4c7;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+    padding-bottom: 40px;
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+
+.ruPaulQ {
+    margin-left: 0px
+}
+
+.card-transform {
+    height: 397px;
+    width: 232px;
+    background-color: white;
+}
+
+.card-deck {
+    padding-bottom: 50px;
+    font-size: 10px;
+}
+
+.card:hover {
+    border-color: black;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border-radius: 10px;
+    padding: 50px;
+    color: black;
+    background-color: rgb(155, 155, 181);
+}
+
+#randomQuote {
+    width: 25%;
+    margin-left: auto;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card-deck {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .card-deck {
+        font-size: 12px;
+    }
+
+    .card-transform {
+        height: 229px;
+        width: 128px;
+        background-color: white;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .card-transform {
+        height: 386.4px;
+        width: 232px;
+        background-color: white;
+    }
+
+    .card-deck {
+        font-size: 18px;
+    }
+}
